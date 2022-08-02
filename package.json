@@ -9,7 +9,7 @@
     "prepare": "husky install",
     "preserve": "npm run build",
     "serve": "cross-env NODE_ENV=production node server/index.js",
-    "start": "node src/components/Homepage.jsx",
+    "start": "node src/components/App.jsx",
     "test": "vitest --reporter=verbose"
   },
   "type": "module",
